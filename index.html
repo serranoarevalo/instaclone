@@ -22,28 +22,66 @@
                         title="Logo"
                         class="login__logo"
                     />
-                    <form method="GET" action="feed.html">
-                        <input 
-                            type="text"
-                            name="username"
-                            placeholder="Username"
-                            required
-                        />
-                        <input 
-                            type="password"
-                            name="password"
-                            placeholder="Password"
-                            required 
-                        />
-                        <input
-                            type="submit"
-                            value="Log in"
-                        />
+                    <!-- x   -->
+                    <form method="GET" action="feed.html" class="login__form">
+                        <div class="login__input-container">
+                            <input 
+                                type="text"
+                                name="username"
+                                placeholder="Username"
+                                required
+                                class="login__input"
+                            />
+                        </div>
+                        <div class="login__input-container">
+                            <input 
+                                type="password"
+                                name="password"
+                                placeholder="Password"
+                                required
+                                class="login__input" 
+                            />
+                            <a href="#" class="login__form-link">Forgot?</a>
+                        </div>
+                        <div class="login__input-container">
+                            <input
+                                type="submit"
+                                value="Log in"
+                                class="login__input login__input--btn"
+                            />
+                        </div>
                     </form>
+                    <span class="login__divider">or</span>
+                    <a class="login__fb-link" href="#">
+                        Log in with Facebook
+                    </a>
                 </div>
                 <div class="login__section login__sign-up">
+                    <span class="login__text">
+                        Don't have an account? 
+                        <a href="#" class="login__link">
+                            Sign up
+                        </a>
+                    </span>
                 </div>
                 <div class="login__section login__section--transparent login__app">
+                    <span class="login__text">
+                        Get the app.
+                    </span>
+                    <div class="login__appstores">
+                        <img 
+                            src="images/ios.png"
+                            alt="iOS"
+                            title="Get the app!"
+                            class="login__appstore" 
+                        />
+                        <img 
+                            src="images/android.png"
+                            alt="Android"
+                            title="Get the app!"
+                            class="login__appstore" 
+                        />
+                    </div>
                 </div>
             </section>
         </main>
