@@ -5,11 +5,46 @@
         <title>Login | Instaclone</title>
     </head>
     <body>
-        <main>
-            <div>
-                <img src="images/phone.png" alt="Phone Image" title="Phone Image" />
+        <main class="login">
+            <div class="login__column">
+                <img 
+                    src="images/phone.png"
+                    alt="Phone Image"
+                    title="Phone Image"
+                    class="login__phone-image"
+                />                
             </div>
-            <section>
+            <section class="login__column">
+                <div class="login__section login__sign-in">
+                    <img 
+                        src="images/logo.png"
+                        alt="Logo"
+                        title="Logo"
+                        class="login__logo"
+                    />
+                    <form method="GET" action="feed.html">
+                        <input 
+                            type="text"
+                            name="username"
+                            placeholder="Username"
+                            required
+                        />
+                        <input 
+                            type="password"
+                            name="password"
+                            placeholder="Password"
+                            required 
+                        />
+                        <input
+                            type="submit"
+                            value="Log in"
+                        />
+                    </form>
+                </div>
+                <div class="login__section login__sign-up">
+                </div>
+                <div class="login__section login__section--transparent login__app">
+                </div>
             </section>
         </main>
     </body>
