@@ -1,4 +1,10 @@
 body{
     background-color: #FAFAFA;
     font-size: 14px;
+    padding-top: calc(80px + 60px);
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
