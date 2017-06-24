@@ -24,6 +24,7 @@
     margin-right:20px;
     font-size: 32px;
     font-weight: 300;
+
 }
 
 .profile__button{
@@ -120,4 +121,45 @@
 
 #cog:hover{
     transform: rotate(1turn);
+}
+
+.profile__name{
+    animation: .6s popIn ease-out forwards;
+    opacity: 0;
+}
+
+.profile__numbers{
+    animation: .6s popIn ease-out forwards;
+    opacity: 0;
+    animation-delay: .6s;
+}
+
+.profile__bio{
+    animation: .6s popIn ease-out forwards;
+    opacity: 0;
+    animation-delay: 1.2s;
+}
+
+@keyframes popIn{
+    from{
+        transform: translateY(-20px) scale(.8);
+        opacity: 0;
+    }
+    to{
+        transform:none;
+        opacity: 1;
+    }
+}
+
+.fa-heart{
+    animation:bump .6s infinite linear;
+}
+
+@keyframes bump{
+    to{
+        transform: scale(.8);
+    }
+    from{
+        transform: none;
+    }
 }
