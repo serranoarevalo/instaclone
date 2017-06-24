@@ -48,6 +48,16 @@
     width:152px;
     height: 152px;
     border-radius: 50%;
+    animation: 3s rotate-avatar infinite linear;
+}
+
+@keyframes rotate-avatar{
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn)
+    }
 }
 
 .profile__name,
@@ -102,4 +112,12 @@
 
 .profile-picture__number:first-child{
     margin-right: 20px;
+}
+
+#cog{
+    transition: all .5s ease-in-out;
+}
+
+#cog:hover{
+    transform: rotate(1turn);
 }
