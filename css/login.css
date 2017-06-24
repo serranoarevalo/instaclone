@@ -73,3 +73,16 @@
     right:10px;
     color:#003569;
 }
+
+.login__divider{
+    margin-bottom: 25px;
+    margin-top: 15px;
+    text-transform: uppercase; 
+    font-weight: 600;
+    color:#999;
+}
+
+.login__fb-link{
+    margin-bottom: 45px;
+    color:#385185;
+}
