@@ -123,7 +123,7 @@
     transform: rotate(1turn);
 }
 
-.profile__name{
+/*.profile__name{
     animation: .6s popIn ease-out forwards;
     opacity: 0;
 }
@@ -138,9 +138,9 @@
     animation: .6s popIn ease-out forwards;
     opacity: 0;
     animation-delay: 1.2s;
-}
+}*/
 
-@keyframes popIn{
+/*@keyframes popIn{
     from{
         transform: translateY(-20px) scale(.8);
         opacity: 0;
@@ -149,7 +149,7 @@
         transform:none;
         opacity: 1;
     }
-}
+}*/
 
 .fa-heart{
     animation:bump .6s infinite linear;
