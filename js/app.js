@@ -1,13 +1,10 @@
-var userAge = prompt("What is your age?")
+$(document).ready(function(){
+    // Here we put all the code
+    var heart = $('.heart');
 
-console.log("You are " + userAge + " years old");
+    heart.click(function(){
+        $(this).toggleClass('fa-heart-o')
+        $(this).toggleClass('heart-red fa-heart')
+    })
 
-if(userAge < 18){
-    console.log("You can't drink");
-} else if(userAge > 19 && userAge < 50){
-    console.log("You are an adult");
-} else if(userAge > 99){
-    console.log("You are dead");
-} else {
-    console.log("🖕🏻 💩");
-}
+})

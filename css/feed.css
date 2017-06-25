@@ -95,3 +95,7 @@
 .photo__add-comment:focus{
     outline: none;
 }
+
+.heart-red{
+    color:red;
+}
