@@ -1,5 +1,3 @@
 # Instaclone
 
-## Check out the demo.
-
-http://serranoarevalo.github.io/instaclone
+Check out the demo: http://serranoarevalo.github.io/instaclone
