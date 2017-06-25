@@ -55,4 +55,17 @@
     color:white;
     border-radius: 3px;
     font-weight: 600;
+    transition: all .1s linear;
+}
+
+.people__column a:active{
+    transform: scale(.95);
+}
+
+.people__username img{
+    transition:all .3s linear;
+}
+
+.people__person:hover .people__username img{
+    transform: rotate(1turn);
 }
